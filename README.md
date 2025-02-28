@@ -22,10 +22,10 @@ A deep learning-powered **Streamlit web app** that classifies brain CT scans as 
 
 ## Project Structure  
  Brain-Stroke-Classification 
- │── 📄 app.py # Streamlit app script 
- │── 📄 model.h5 # Trained CNN model 
- │── 📄 requirements.txt # Dependencies for the project 
- │── 📄 README.md # Project documentation
+ - │── 📄 app.py # Streamlit app script 
+ - │── 📄 model.h5 # Trained CNN model 
+ - │── 📄 requirements.txt # Dependencies for the project 
+ - │── 📄 README.md # Project documentation
 
 Future Improvements
 - ✅ Improve dataset with more CT scans 
