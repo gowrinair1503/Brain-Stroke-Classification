@@ -28,16 +28,16 @@ A deep learning-powered **Streamlit web app** that classifies brain CT scans as 
  │── 📄 README.md # Project documentation
 
 Future Improvements
-✅ Improve dataset with more CT scans 
-✅ Deploy as a mobile-friendly app 
+- ✅ Improve dataset with more CT scans 
+- ✅ Deploy as a mobile-friendly app 
 
 Acknowledgments
-TensorFlow & Keras for deep learning
-Streamlit for interactive UI
-Medical Imaging Datasets for training
+- TensorFlow & Keras for deep learning
+- Streamlit for interactive UI
+- Medical Imaging Datasets for training
 
 License
-This project is open-source and available under the MIT License.
+- This project is open-source and available under the MIT License.
 
 Live Demo
-🔗 https://brain-stroke-classification.streamlit.app/
+- 🔗 https://brain-stroke-classification.streamlit.app/
