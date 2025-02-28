@@ -72,6 +72,6 @@ if uploaded_file is not None:
     prediction = model.predict(processed_image)[0][0]
 
     # Display result
-    result = "🟣 Stroke Detected" if prediction >= 0.5 else "🟢 No Stroke Detected"
+    result = "🔴 Stroke Detected" if prediction >= 0.5 else "🟢 No Stroke Detected"
     
     st.markdown(f'<div class="result-box">{result}</div>', unsafe_allow_html=True)
