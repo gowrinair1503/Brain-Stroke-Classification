@@ -58,7 +58,7 @@ st.markdown(
 )
 
 # Streamlit App UI
-st.markdown("<h1 style='text-align: center; color: #6a1b9a;'>Brain Stroke Classification</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #6a1b9a;'>🧠 Brain Stroke Classification</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #7b1fa2;'>Upload a brain CT scan to check for stroke.</p>", unsafe_allow_html=True)
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
