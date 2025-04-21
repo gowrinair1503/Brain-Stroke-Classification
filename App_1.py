@@ -13,7 +13,8 @@ model = load_model()
 
 # Function to preprocess the image
 def preprocess_image(image):
-    image = image.resize((100, 100))  # Resize to match training input
+    image = image.resize((100, 100)) 
+    image = image.convert('RGB')# Resize to match training input
     image = np.array(image) / 255.0   # Normalize
     image = np.expand_dims(image, axis=0)  # Add batch dimension
     return image
